@@ -142,8 +142,8 @@ This keeps the active conversation smaller while still allowing the agent to ret
 - **Retrieval quality can weaken for lengthy conversations** — older information is summarized before being stored, so some fine-grained details may be lost.
 - **No RRF / hybrid retrieval / reranking** — there is currently no Reciprocal Rank Fusion, keyword + vector retrieval, or cross-encoder reranking layer to improve retrieval accuracy.
 - **Single-user architecture** — the current version is intended for local/single-user usage rather than a multi-user production environment.
-- 🗂️ **Per-chat memory** — memories are isolated by chat, so there is no global user-level memory across different chats.
-- ⚡ **Retrieval is agent-dependent** — the ReAct agent has to decide when long-term memory is relevant and invoke the memory tool.
+- **Per-chat memory** — memories are isolated by chat, so there is no global user-level memory across different chats.
+- **Retrieval is agent-dependent** — the ReAct agent has to decide when long-term memory is relevant and invoke the memory tool.
 
 > **The goal of this project is to demonstrate the foundation of agentic memory, not to present it as a production-ready memory system.**
 
